@@ -1,0 +1,348 @@
+@import url(../styles/fonts.css/);
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.header {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 768px;
+}
+
+.background {
+    height: 100%;
+    background-color: rgba(198, 108, 73, 0.3);
+    padding: 93px 165px;
+}
+
+.collapse {
+    width: 50%;
+    padding-bottom: 145px;
+}
+
+.logo {
+    width: 50%;
+    padding-bottom: 145px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-button {
+    position: absolute;
+    top: 15px;
+    display: none;
+}
+
+.nav-menu {
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+
+.nav-link:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:active {
+    color: white;
+    font-weight: bold;
+}
+
+.header-text h2 {
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+
+.header-text h4 {
+    font-size: 24px;
+    margin-bottom: 106px;
+    letter-spacing: 1px;
+}
+
+section {
+    color: rgba(51, 51, 51, 1);
+    padding: 93px 165px;
+}
+
+section h2 {
+    margin-bottom: 86px;
+    font-weight: 600;
+}
+
+.about {
+    min-height: 544px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.skills {
+    background-color: rgba(255, 250, 242, 1);
+    width: 100%;
+    min-height: 693px;
+}
+
+.skills-image {
+    padding: 0px;
+    margin-bottom: 26px;
+    width: 100%;
+    object-fit: cover;
+}
+
+table {
+    max-width: 635px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+th {
+    padding-bottom: 50px;
+}
+
+td {
+    padding-bottom: 20px;
+}
+
+tr {
+    height: 24px;
+}
+
+.progress {
+    background-color: rgba(245, 214, 171, 1);
+    border-radius: 0px;
+    height: 24px;
+}
+
+.progress-bar {
+    background-color: rgba(198, 108, 73, 1);
+}
+
+.portfolio {
+    padding-bottom: 145px;
+}
+
+.portfolio h5 {
+   margin-bottom: 48px;
+}
+
+.portfolio-content {
+    height: 100%;
+    position: relative;
+}
+
+.nav-point {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.nav-point img {
+    margin-right: 15px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    height: 403px;
+}
+
+.rectangle1 {
+    background-image: url(../images/Rectangle1.png);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.rectangle2 {
+    background-image: url(../images/Rectangle2.png);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 8;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.rectangle3 {
+    background-image: url(../images/Rectangle3.png);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 9;
+}
+
+.rectangle4 {
+    background-image: url(../images/Rectangle4.png);
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 8;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+footer {
+    background-color: rgba(255, 250, 242, 1);
+    padding: 93px 165px;
+    height: 528px;
+    position: relative;
+}
+
+.contact {
+    margin-bottom: 16px;
+}
+
+footer h2 {
+    margin-bottom: 51px;
+}
+
+footer h6 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+footer img {
+    position: absolute;
+    bottom: 70px;
+    right: 180px;
+    color: rgba(51, 51, 51, 1);
+}
+
+@media screen and (max-width: 991px) {
+    .nav-point {
+        display: none;
+    }
+    .portfolio {
+        padding-bottom: 85px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-button {
+        display: block;
+    }
+    .header {
+        height: 450px;
+    }
+    .background {
+        padding: 25px 35px;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .header-text {
+        text-align: center;
+    }
+    .header-text h2 {
+        font-size: 20px;
+        margin-bottom: 13px;
+    }
+    .header-text h4 {
+        font-size: 13px;
+        margin-bottom: 41px;
+    }
+    .header-text h5 {
+        font-size: 13px;
+    }
+    section {
+        padding: 25px 35px;
+    }
+    section h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about {
+        min-height: 200px;
+    }
+    .skills {
+        min-height: 617px;
+    }
+    .skills-image {
+        width: 80%;
+        display: block;
+        margin: 0 auto 26px;
+    }
+    td, th {
+        font-size: 12px !important;
+    }
+    th {
+        padding-bottom: 30px;
+    }
+    td {
+        padding-bottom: 15px;
+    }
+    tr {
+        height: 18px;
+    }
+    .portfolio {
+        padding-bottom: 25px;
+    }
+    .portfolio h5 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .wrapper {
+        max-height: 245px;
+        column-gap: 25px;
+        row-gap: 25px;
+    }
+    footer {
+        padding: 25px 34px;
+        height: 400px;
+    }
+    footer h2{
+       margin-bottom: 25px;
+       text-align: center;
+    }
+    footer img {
+        right: 32px;
+        bottom: 58px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .header {
+        height: 275px;
+    }
+    .text {
+        font-size: 12px;
+        line-height: 14.5px;
+    }
+    .wrapper {
+        max-height: 195px;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+}
